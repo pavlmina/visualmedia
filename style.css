@@ -1,0 +1,159 @@
+*{
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+html, body { height:100%; width:100%; }
+body { background:#010101; }
+
+.pulse,
+.pulse:after {
+  display:inline-block;
+  padding:.5rem;
+  border-radius:50%;
+  animation:pulse 1.5s .85s infinite ease-out;
+  border:thick solid rgba(230,230,230,0);
+  transform:scale3d(.7,.7,0);
+  transition:opacity .75s;
+}
+
+.pulse:after {
+  display:block;
+  content:"";
+  padding:5rem;
+}
+
+
+
+@keyframes pulse {
+  50% {
+    border-color:rgba(230,230,230,.3);
+    background:transparent;
+  }
+  to { border-color:transparent; transform:none; }
+}
+
+.content{
+    padding: 4rem;
+}
+
+.header{
+    
+}
+
+.text{
+    color: #EAFCD7;
+    font-size: 2.75rem;
+}
+
+p{
+    color: #EAFCD7;
+    text-align: left;
+    
+}
+
+.pw{
+    padding-top: 5rem;
+    padding-bottom: 0;
+    margin: 0;
+    width: 90%;
+    font-size: 2em;
+    font-weight: ;
+}
+
+a{
+    text-decoration: none;
+    color: #EAFCD7;
+    
+}
+a:hover{
+   color: #96EF37;
+}
+
+.align-left{
+    display: block;
+    text-align: left;
+    float: left;
+}
+
+.align-right{
+    display: block;
+    text-align: right;
+    float: right;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-align: right;
+    margin-top: .5em;
+}
+
+hr{
+    color: #96EF37;
+    width: 50%;
+}
+
+img{
+    width: 60px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+   }
+   
+   .drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+   }
+
+.drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+   }
+   
+   .drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+   }
+   
+   @keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-100px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+   }
+
+
+ /* Animation */
+ .line-1{
+    color: #EAFCD7;
+    font-size: 4rem;
+    text-align: left;
+    font-weight:300;
+
+    position: relative;
+    border-right: 2px solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(auto);    
+}
+ 
+.anim-typewriter{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 26.5em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
