@@ -866,9 +866,11 @@ hr{
     left: 0;
     color: #fafafa;
     opacity: 0;
+    padding-top: 40px;
   }
   &:hover {
     .overlay {
+      padding-top: 16px;
       opacity: 1;
     }
     img {
@@ -876,6 +878,7 @@ hr{
       filter: blur(4px);
       cursor: crosshair;
       transition: .4s all;
+      opacity: .5;
     }
   }
 }
@@ -1104,10 +1107,10 @@ h2{
 }
 
 .overlay-text{
-  padding: 16px;
-  border-radius: 10px;
-  background-color: #EEEDE9;
+  padding: 16px 0px 0px 0px;
 }
+
+
 
 div,section{
   /* border: 1px solid red; */
