@@ -1,1085 +1,1114 @@
 
 
 *{
-    font-family: "Archivo", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-      
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+    
 }
 
 html{
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 body{
-    margin: 0;
-    background-color: #2929CC;
+  margin: 0;
+  background-color: #2929CC;
 }
 
 main{
-    
-  }
+  
+}
 
 .main-2{
-  margin: 0;
+margin: 0;
 }
 
 header{
-  margin: 20px 0px 60px 0px;
+margin: 20px 0px 60px 0px;
 }
 
 nav{
-  
-    padding-top: 4px;
-    float: right;
-}
 
-nav a{
-    font-size: 12px;
-    color: #fafafa;
-    margin-right: 28px;
-}
-
-a{
-    text-decoration: none;
-}
-
-.dot-dark{
-    height: 8px;
-    width: 8px;
-    background-color: #0d0d0d;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 4px;
-  }
-
-  .dot-light{
-    height: 8px;
-    width: 8px;
-    background-color: #fafafa;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 4px;
-  }
-
-  .dot-green{
-    height: 8px;
-    width: 8px;
-    background-color: #00ff7b;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 4px;
-  }
-
-  .dot-blue{
-    height: 8px;
-    width: 8px;
-    background-color: #2929CC;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 4px;
-  }
-
-  .text-light{color: #fafafa;}
-  .text-dark{color: #0d0d0d;}
-  .text-blue{color: #2929CC;}
-
-  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    header {
-        background: red; 
-    }
-    
-    main{margin: 0px 26px 0px 26px;}
-
-    .main-2{
-      margin: 0px -26px 0px -26px;
-      padding: 30px 26px 0px 26px;
-    }
-
-
-    .head-text{
-      margin-bottom: 30px;
-    }
-    
-    div{
-      margin-bottom: 60px;
-    }
-
-    .col-2{width: 100%;}
-    .col-12{width: 100%;}
-    
-    .about-img {
-      height: 200px;
-      object-fit: cover;
-    }
-
-    h1{
-      font-size: 80px;
-    }
-
-    .pic-me{
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-    
-    .nikon-img{
-      border-radius: 10px;
-      height: 324px;
-      object-fit: cover;
-    }
-
-    .overlay {
-      transition: .4s all;
-      margin: 10px 10px 0px 10px;
-    }
-
-    .info-intro{
-      padding: 20px;
-    }
-
-    .info-intro-text{
-      width: 80%;
-      font-size: 18px;
-    }
-
-    .services{
-      font-size: 12px;
-      font-weight: 700;
-      color: #716E67;
-    }
-    
-    .services-sub{
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 0;
-    }
-
-    .footer-box{
-      padding: 10px;
-    }
-
-    .email-text{
-      font-size: 18px;
-    }
-
-    button{
-      background-color: #fafafa;
-      color: #0d0d0d;
-      border-radius: 10px;
-      font-size: 12px;
-      padding: 10px;
-      border: none;
-      font-weight: bold;
-    }
-
-    .text-inside-header{
-      font-size: 22px;
-    }
-
-    .text-inside{
-      font-size: 12px;
-    }
-
-    .single-img{
-      height: 260px;
-      object-fit: cover;
-    }
-
-    .hr-img{
-      height: 260px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    .col-3{width: 100%;}
-    .works-thumbnail{
-      object-fit: cover;
-      width: 100%;
-      height: 252px;
-      }
-
-    .h1-mobile{
-      font-size: 50px;
-    }
-
-    .h2-mobile{
-      font-size: 26px;
-    }
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    header {
-        background: green;
-           }
-
-    main{margin: 0px 46px 0px 46px;}
-
-    .main-2{
-      margin: 0px -80px 0px -80px;
-      padding: 30px 80px 0px 80px;
-    }
-
-    .head-text{
-      margin-bottom: 30px;
-    }
-
-    div{
-      margin-bottom: 60px;
-    }
-    
-    .col-2{width: 42%;}
-    .col-12{width: 100%;}
-
-    .about-img {
-      height: 300px;
-      object-fit: cover;
-    }
-
-    h1{
-      font-size: 80px;
-    }
-
-    .pic-me{
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    .nikon-img{
-      border-radius: 10px;
-      height: 324px;
-      object-fit: cover;
-    }
-
-    .overlay {
-      transition: .4s all;
-      margin:30px 30px 0px 30px;
-    }
-
-    .info-intro{
-      padding: 20px;
-    }
-
-    .info-intro-text{
-      width: 80%;
-      font-size: 22px;
-    }
-
-    .services{
-      font-size: 16px;
-      font-weight: 700;
-      color: #716E67;
-    }
-    
-    .services-sub{
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 0;
-    }
-
-    .footer-box{
-      padding: 20px;
-    }
-
-    .email-text{
-      font-size: 42px;
-    }
-
-    button{
-      background-color: #fafafa;
-      color: #0d0d0d;
-      border-radius: 10px;
-      font-size: 16px;
-      padding: 12px;
-      border: none;
-    }
-
-    .col-3{width: 100%;}
-    .works-thumbnail{
-      object-fit: cover;
-      width: 100%;
-      height: 252px;
-      }
-
-      .hr-img{
-        object-fit: cover;
-        border-radius: 10px;
-      }
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    header {
-        background: blue;
-    }
-
-    main{margin: 0px 80px 0px 80px;}
-
-    .main-2{
-      margin: 0px -80px 0px -80px;
-      padding: 30px 80px 0px 80px;
-    }
-        
-    .head-text{
-      margin-bottom: 40px;
-    }
-
-    div{
-      margin-bottom: 80px;
-    }
-    
-    .col-2{width: 46%;}
-    .col-12{width: 100%;}
-    
-    .about-img {
-      height: 300px;
-      object-fit: cover;
-    }
-
-    h1{
-      font-size: 80px;
-    }
-
-    .pic-me{
-      height: 400px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    .nikon-img{
-      border-radius: 10px;
-      height: 324px;
-      object-fit: cover;
-    }
-
-    .overlay {
-      transition: .4s all;
-      margin: 40px 40px 0px 40px;
-    }
-
-    .info-intro{
-      padding: 20px;
-    }
-
-    .info-intro-text{
-      width: 80%;
-    }
-
-    .info-intro{
-      padding: 20px;
-    }
-
-    .info-intro-text{
-      width: 80%;
-      font-size: 28px;
-    }
-
-    .left-item-text{
-      float: left;
-    }
-
-    .footer-box{
-      padding: 20px;
-    }
-
-    .email-text{
-      font-size: 22px;
-    }
-
-    .email-text-right{
-      font-size: 40px;
-      position: absolute;
-      bottom: 8px;
-      right: 16px;
-      font-size: 18px;
-    }
-
-    .col-3{width: 46%; float: left;}
-    .works-thumbnail{
-      object-fit: cover;
-      width: 100%;
-      height: 300px;
-      }
-
-      .right-item{
-        margin-right: 40px;
-      }
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    header {
-        background: orange;
-    }
-
-    main{margin: 0px 100px 0px 100px;}
-
-    .main-2{
-      margin: 0px -100px 0px -100px;
-      padding: 30px 100px 0px 100px;
-    }
-
-    section{
-      display: flex;
-    }
-    
-    .left-item{
-      margin-left: 40px;
-    }
-
-    .col-2{width: 40%;}
-    .col-5{width: 50%;}
-    .col-12{width: 100%;}
-
-    .about-img {
-      height: 350px;
-      object-fit: cover;
-    }
-
-    h1{
-      font-size: 80px;
-    }
-
-    .pic-me{
-      height: 500px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-    
-    .nikon-img{
-      border-radius: 10px;
-      height: 324px;
-      object-fit: cover;
-    }
-
-    .overlay {
-      transition: .4s all;
-      margin: 40px 40px 0px 40px;
-    }
-
-    .single-img{
-      border-radius: 10px;
-      height: 400px;
-      object-fit: cover;
-    }
-
-    .info-intro{
-      padding: 20px;
-    }
-
-    .info-intro-text{
-      width: 80%;
-      font-size: 32px;
-    }
-
-    .left-item-text{
-      float: left;
-    }
-
-    .footer-box{
-      padding: 20px;
-    }
-
-    .email-text{
-      font-size: 36px;
-    }
-
-    .email-text-right{
-      position: absolute;
-      bottom: 8px;
-      right: 160px;
-    }
-
-    .col-3{width: 46%;}
-    .works-thumbnail{
-      object-fit: cover;
-      width: 100%;
-      height: 180px;
-      }
-
-    .right-item{
-      margin-right: 0px;
-    }
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    header {
-        background: pink;
-    }
-
-    main{margin: 0px 120px 0px 120px;}
-
-    .main-2{
-      margin: 0px -120px 0px -120px;
-      padding: 40px 120px 0px 120px;
-    }
-
-    section{
-      display: flex;
-    }
-
-    .head-text{
-      margin-bottom: 62px;
-    }
-
-    .content{
-      margin-bottom: 124px;
-    }
-
-    .left-item{
-      margin-left: 100px;
-    }
-
-    .col-2{width: 40%;}
-    .col-5{width: 47%;}
-    .col-12{width: 100%;}
-
-    .about-img {
-      height: 500px;
-      object-fit: cover;
-    }
-
-    h1{
-      font-size: 80px;
-    }
-
-    .pic-me{
-      height: 600px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    .nikon-img{
-      border-radius: 10px;
-      height: 324px;
-      object-fit: cover;
-    }
-
-    .hr-img{
-      border-radius: 10px;
-      height: 600px;
-      object-fit: cover;
-    }
-
-    .single-img{
-      border-radius: 10px;
-      height: 600px;
-      object-fit: cover;
-    }
-
-    .info-intro{
-      padding: 36px;
-    }
-
-    .info-intro-text{
-      width: 80%;
-    }
-
-    .left-item-text{
-      float: left;
-    }
-
-    .footer-box{
-      padding: 36px;
-    }
-
-    .footer{
-      width: 50%;
-      font-size: 40px;
-      line-height: 1;
-    }
-
-    .text-inside-header{
-      font-size: 38px;
-    }
-
-    .text-inside{
-      font-size: 18px;
-      width: 60%;
-    }
-
-    .email-text{
-      font-size: 32px;
-    }
-
-    button{
-      background-color: #fafafa;
-      color: #0d0d0d;
-      border-radius: 10px;
-      font-size: 20px;
-      padding: 16px;
-      border: none;
-    }
-
-    .email-text{
-      font-size: 40px;
-    }
-
-    .email-text-right{
-      position: absolute;
-      bottom: 8px;
-      right: 160px;
-    }
-
-    .col-3{width: 46%;}
-    .works-thumbnail{
-      object-fit: cover;
-      width: 100%;
-      height: 180px;
-      }
-    .right-item{
-      margin-right: 0px;
-    }
-  }
-
-  /* Extra large devices (large laptops and desktops, 1600px and up) */
-  @media only screen and (min-width: 1600px) {
-    header {
-        background: rgb(38, 203, 245);
-    }
-
-    main{margin: 0px 120px 0px 120px;}
-
-    .main-2{
-      margin: 0px -120px 0px -120px;
-      padding: 40px 120px 0px 120px;
-    }
-
-    section{
-      display: flex;
-    }
-
-    .head-text{
-      margin-bottom: 62px;
-    }
-
-    .content{
-      margin-bottom: 124px;
-    }
-
-    .left-item{
-      margin-left: 100px;
-    }
-
-    .col-2{width: 40%;}
-    .col-5{width: 47%;}
-    .col-12{width: 100%;}
-
-    .about-img {
-      height: 500px;
-      object-fit: cover;
-    }
-
-    h1{
-      font-size: 80px;
-    }
-
-    .pic-me{
-      height: 600px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-
-    .nikon-img{
-      border-radius: 10px;
-      height: 324px;
-      object-fit: cover;
-    }
-
-    .hr-img{
-      border-radius: 10px;
-      height: 600px;
-      object-fit: cover;
-    }
-
-    .single-img{
-      border-radius: 10px;
-      height: 600px;
-      object-fit: cover;
-    }
-
-    .info-intro{
-      padding: 36px;
-    }
-
-    .info-intro-text{
-      width: 80%;
-    }
-
-    .left-item-text{
-      float: left;
-    }
-
-    .footer-box{
-      padding: 36px;
-    }
-
-    .footer{
-      width: 50%;
-      font-size: 40px;
-      line-height: 1;
-    }
-
-    .text-inside-header{
-      font-size: 38px;
-    }
-
-    .text-inside{
-      font-size: 18px;
-      width: 60%;
-    }
-
-    .email-text{
-      font-size: 32px;
-    }
-
-    button{
-      background-color: #fafafa;
-      color: #0d0d0d;
-      border-radius: 10px;
-      font-size: 20px;
-      padding: 16px;
-      border: none;
-    }
-
-    .email-text{
-      font-size: 40px;
-    }
-
-    .email-text-right{
-      position: absolute;
-      bottom: 8px;
-      right: 160px;
-    }
-
-    .col-3{width: 46%;}
-    .works-thumbnail{
-      object-fit: cover;
-      width: 100%;
-      height: 360px;
-      }
-    .right-item{
-      margin-right: 0px;
-    }
-  }
-
-
-h3{
-  margin-bottom: 20px;
-}
-
-li{
-  list-style: none;
-}
-
-.about-img{
-  border-radius: 10px;
-  margin-bottom: 60px;
-}
-
-.accordion {
-  color: #0d0d0d;
-  cursor: pointer;
-  padding: 20px 0px 20px 0px;
-  width: 100%;
-  border: none;
-  text-align: left;
-}
-
-.accordion:hover {
-  background-color: #EEEDE9;
-}
-
-.accordion:after {
-  content: '\2B24';
-  color: #0d0d0d;
+  padding-top: 4px;
   float: right;
 }
 
+nav a{
+  font-size: 12px;
+  color: #fafafa;
+  margin-right: 28px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.dot-dark{
+  height: 8px;
+  width: 8px;
+  background-color: #0d0d0d;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.dot-light{
+  height: 8px;
+  width: 8px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.dot-green{
+  height: 8px;
+  width: 8px;
+  background-color: #00ff7b;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.dot-blue{
+  height: 8px;
+  width: 8px;
+  background-color: #2929CC;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.text-light{color: #fafafa;}
+.text-dark{color: #0d0d0d;}
+.text-blue{color: #2929CC;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header {
+      background: red; 
+  }
+  
+  main{margin: 0px 26px 0px 26px;}
+
+  .main-2{
+    margin: 0px -26px 0px -26px;
+    padding: 30px 26px 0px 26px;
+  }
+
+
+  .head-text{
+    margin-bottom: 30px;
+  }
+  
+  div{
+    margin-bottom: 60px;
+  }
+
+  .col-2{width: 100%;}
+  .col-12{width: 100%;}
+  
+  .about-img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h1{
+    font-size: 30px;
+    letter-spacing: -2px;
+    font-weight: 100;
+    font-family: "Archivo", sans-serif;
+    line-height: 1;
+    margin-bottom: 60px;
+  }
+
+  .pic-me{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .nikon-img{
+    border-radius: 10px;
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .overlay {
+    transition: .4s all;
+    margin: 10px 10px 0px 10px;
+  }
+
+  .info-intro{
+    padding: 20px;
+  }
+
+  .info-intro-text{
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .services{
+    font-size: 12px;
+    font-weight: 700;
+    color: #716E67;
+  }
+  
+  .services-sub{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0;
+  }
+
+  .footer-box{
+    padding: 10px;
+  }
+
+  .email-text{
+    font-size: 18px;
+  }
+
+  button{
+    background-color: #fafafa;
+    color: #0d0d0d;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+  }
+
+  .text-inside-header{
+    font-size: 22px;
+  }
+
+  .text-inside{
+    font-size: 12px;
+  }
+
+  .single-img{
+    height: 260px;
+    object-fit: cover;
+  }
+
+  .hr-img{
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .col-3{width: 100%;}
+  .works-thumbnail{
+    object-fit: cover;
+    width: 100%;
+    height: 252px;
+    }
+
+  .h2-mobile{
+    font-size: 26px;
+  }
+
+  h2{
+    padding-top: 14px;
+    letter-spacing: -1px;
+    font-family: "Archivo", sans-serif;
+    line-height: 1;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  header {
+      background: green;
+         }
+
+  main{margin: 0px 46px 0px 46px;}
+
+  .main-2{
+    margin: 0px -80px 0px -80px;
+    padding: 30px 80px 0px 80px;
+  }
+
+  .head-text{
+    margin-bottom: 30px;
+  }
+
+  div{
+    margin-bottom: 60px;
+  }
+  
+  .col-2{width: 42%;}
+  .col-12{width: 100%;}
+
+  .about-img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  h1{
+    font-size: 80px;
+  }
+
+  .pic-me{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .nikon-img{
+    border-radius: 10px;
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .overlay {
+    transition: .4s all;
+    margin:30px 30px 0px 30px;
+  }
+
+  .info-intro{
+    padding: 20px;
+  }
+
+  .info-intro-text{
+    width: 80%;
+    font-size: 22px;
+  }
+
+  .services{
+    font-size: 16px;
+    font-weight: 700;
+    color: #716E67;
+  }
+  
+  .services-sub{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0;
+  }
+
+  .footer-box{
+    padding: 20px;
+  }
+
+  .email-text{
+    font-size: 42px;
+  }
+
+  button{
+    background-color: #fafafa;
+    color: #0d0d0d;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+  }
+
+  .col-3{width: 100%;}
+  .works-thumbnail{
+    object-fit: cover;
+    width: 100%;
+    height: 252px;
+    }
+
+    .hr-img{
+      object-fit: cover;
+      border-radius: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header {
+      background: blue;
+  }
+
+  main{margin: 0px 80px 0px 80px;}
+
+  .main-2{
+    margin: 0px -80px 0px -80px;
+    padding: 30px 80px 0px 80px;
+  }
+      
+  .head-text{
+    margin-bottom: 40px;
+  }
+
+  div{
+    margin-bottom: 80px;
+  }
+  
+  .col-2{width: 46%;}
+  .col-12{width: 100%;}
+  
+  .about-img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  h1{
+    font-size: 80px;
+  }
+
+  .pic-me{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .nikon-img{
+    border-radius: 10px;
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .overlay {
+    transition: .4s all;
+    margin: 40px 40px 0px 40px;
+  }
+
+  .info-intro{
+    padding: 20px;
+  }
+
+  .info-intro-text{
+    width: 80%;
+  }
+
+  .info-intro{
+    padding: 20px;
+  }
+
+  .info-intro-text{
+    width: 80%;
+    font-size: 28px;
+  }
+
+  .left-item-text{
+    float: left;
+  }
+
+  .footer-box{
+    padding: 20px;
+  }
+
+  .email-text{
+    font-size: 22px;
+  }
+
+  .email-text-right{
+    font-size: 40px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  .col-3{width: 46%; float: left;}
+  .works-thumbnail{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    }
+
+    .right-item{
+      margin-right: 40px;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header {
+      background: orange;
+  }
+
+  main{margin: 0px 100px 0px 100px;}
+
+  .main-2{
+    margin: 0px -100px 0px -100px;
+    padding: 30px 100px 0px 100px;
+  }
+
+  section{
+    display: flex;
+  }
+  
+  .left-item{
+    margin-left: 40px;
+  }
+
+  .col-2{width: 40%;}
+  .col-5{width: 50%;}
+  .col-12{width: 100%;}
+
+  .about-img {
+    height: 350px;
+    object-fit: cover;
+  }
+
+  h1{
+    font-size: 80px;
+  }
+
+  .pic-me{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .nikon-img{
+    border-radius: 10px;
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .overlay {
+    transition: .4s all;
+    margin: 40px 40px 0px 40px;
+  }
+
+  .single-img{
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .info-intro{
+    padding: 20px;
+  }
+
+  .info-intro-text{
+    width: 80%;
+    font-size: 32px;
+  }
+
+  .left-item-text{
+    float: left;
+  }
+
+  .footer-box{
+    padding: 20px;
+  }
+
+  .email-text{
+    font-size: 36px;
+  }
+
+  .email-text-right{
+    position: absolute;
+    bottom: 8px;
+    right: 160px;
+  }
+
+  .col-3{width: 46%;}
+  .works-thumbnail{
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    }
+
+  .right-item{
+    margin-right: 0px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header {
+      background: pink;
+  }
+
+  main{margin: 0px 120px 0px 120px;}
+
+  .main-2{
+    margin: 0px -120px 0px -120px;
+    padding: 40px 120px 0px 120px;
+  }
+
+  section{
+    display: flex;
+  }
+
+  .head-text{
+    margin-bottom: 62px;
+  }
+
+  .content{
+    margin-bottom: 124px;
+  }
+
+  .left-item{
+    margin-left: 100px;
+  }
+
+  .col-2{width: 40%;}
+  .col-5{width: 47%;}
+  .col-12{width: 100%;}
+
+  .about-img {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  h1{
+    font-size: 50px;
+    letter-spacing: -3px;
+    font-weight: 100;
+    font-family: "Archivo", sans-serif;
+  }
+
+  .pic-me{
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .nikon-img{
+    border-radius: 10px;
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .hr-img{
+    border-radius: 10px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .single-img{
+    border-radius: 10px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .info-intro{
+    padding: 36px;
+  }
+
+  .info-intro-text{
+    width: 80%;
+  }
+
+  .left-item-text{
+    float: left;
+  }
+
+  .footer-box{
+    padding: 36px;
+  }
+
+  .footer{
+    width: 50%;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .text-inside-header{
+    font-size: 38px;
+  }
+
+  .text-inside{
+    font-size: 18px;
+    width: 60%;
+  }
+
+  .email-text{
+    font-size: 32px;
+  }
+
+  button{
+    background-color: #fafafa;
+    color: #0d0d0d;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 16px;
+    border: none;
+  }
+
+  .email-text{
+    font-size: 40px;
+  }
+
+  .email-text-right{
+    position: absolute;
+    bottom: 8px;
+    right: 160px;
+  }
+
+  .col-3{width: 46%;}
+
+  .works-thumbnail{
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    }
+
+  .right-item{
+    margin-right: 0px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+
+  .right-me{
+    text-align: right;
+    float: right;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  header {
+      background: rgb(38, 203, 245);
+  }
+
+  main{margin: 0px 120px 0px 120px;}
+
+  .main-2{
+    margin: 0px -120px 0px -120px;
+    padding: 40px 120px 0px 120px;
+  }
+
+  section{
+    display: flex;
+  }
+
+  .head-text{
+    margin-bottom: 62px;
+  }
+
+  .content{
+    margin-bottom: 124px;
+  }
+
+  .left-item{
+    margin-left: 100px;
+  }
+
+  .col-2{width: 40%;}
+  .col-5{width: 47%;}
+  .col-12{width: 100%;}
+
+  .about-img {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+    font-weight: 100;
+    font-family: "Archivo", sans-serif;
+  }
+
+  .pic-me{
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .nikon-img{
+    border-radius: 10px;
+    height: 324px;
+    object-fit: cover;
+  }
+
+  .hr-img{
+    border-radius: 10px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .single-img{
+    border-radius: 10px;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .info-intro{
+    padding: 36px;
+  }
+
+  .info-intro-text{
+    width: 80%;
+  }
+
+  .left-item-text{
+    float: left;
+  }
+
+  .footer-box{
+    padding: 36px;
+  }
+
+  .footer{
+    width: 50%;
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .text-inside-header{
+    font-size: 38px;
+  }
+
+  .text-inside{
+    font-size: 18px;
+    width: 60%;
+  }
+
+  .email-text{
+    font-size: 32px;
+  }
+
+  button{
+    background-color: #fafafa;
+    color: #0d0d0d;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 16px;
+    border: none;
+  }
+
+  .email-text{
+    font-size: 40px;
+  }
+
+  .email-text-right{
+    position: absolute;
+    bottom: 8px;
+    right: 160px;
+  }
+
+  .col-3{width: 46%;}
+  .works-thumbnail{
+    object-fit: cover;
+    width: 100%;
+    height: 360px;
+    }
+  .right-item{
+    margin-right: 0px;
+  }
+}
+
+
+h3{
+margin-bottom: 20px;
+}
+
+li{
+list-style: none;
+}
+
+.about-img{
+border-radius: 10px;
+margin-bottom: 60px;
+}
+
+.accordion {
+color: #0d0d0d;
+cursor: pointer;
+padding: 20px 0px 20px 0px;
+width: 100%;
+border: none;
+text-align: left;
+}
+
+.accordion:hover {
+background-color: #EEEDE9;
+}
+
+.accordion:after {
+content: '\2B24';
+color: #0d0d0d;
+float: right;
+}
+
 .active:after {
-  content: "\2B24";
-  color: #00ff7b;
+content: "\2B24";
+color: #00ff7b;
 }
 
 .panel {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  border-bottom: solid 1px #0d0d0d;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+border-bottom: solid 1px #0d0d0d;
 }
 
 hr{
-  height: 1px;
-  background-color: #D5CFC1;
-  border: none;
+height: 1px;
+background-color: #D5CFC1;
+border: none;
+margin: 0px;
 }
 
 .sub-menu{
-  padding: 4px 0px 4px 0px;
+padding: 4px 0px 4px 0px;
 }
 
 .sub-menu:hover{
-  color: #fafafa;
-  padding: 4px 6px 4px 6px;
-  background-color: #2929cc;
-  border-radius: 2px;
-  transition: padding .1s ease-out;
-  cursor: crosshair;
+color: #fafafa;
+padding: 4px 6px 4px 6px;
+background-color: #2929cc;
+border-radius: 2px;
+transition: padding .1s ease-out;
+cursor: crosshair;
 }
 
 .sub-menu-normie:hover{
-  color: #0d0d0d;
-  background-color: #fafafa;
-  border-radius: 2px;
-  cursor: crosshair;
+color: #0d0d0d;
+background-color: #fafafa;
+border-radius: 2px;
+cursor: crosshair;
 }
 
 .sub-menu-light:hover{
-  color: #0d0d0d;
-  background-color: #fafafa;
-  border-radius: 2px;
-  cursor: crosshair;
+color: #0d0d0d;
+background-color: #fafafa;
+border-radius: 2px;
+cursor: crosshair;
 }
 
 
 .img-overlay{
-  position: relative;
-  text-align: center;
+position: relative;
+text-align: center;
 }
 
 .overlay {
-  text-align: left;
+text-align: left;
 }
 
 .bg {
-  float: left;
-  position: relative;
-  
+float: left;
+position: relative;
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fafafa;
+  opacity: 0;
+  padding-top: 40px;
+}
+&:hover {
   .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fafafa;
-    opacity: 0;
-    padding-top: 40px;
+    padding-top: 16px;
+    opacity: 1;
   }
-  &:hover {
-    .overlay {
-      padding-top: 16px;
-      opacity: 1;
-    }
-    img {
-      -webkit-filter: blur(4px);
-      filter: blur(4px);
-      cursor: crosshair;
-      transition: .4s all;
-      opacity: .5;
-    }
+  img {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    cursor: crosshair;
+    transition: .4s all;
+    opacity: .5;
   }
+}
 }
 
 .bg-no-hover {
-  float: left;
-  position: relative;
-  
+float: left;
+position: relative;
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fafafa;
+  opacity: 0;
+}
+&:hover {
   .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fafafa;
-    opacity: 0;
+    opacity: 1;
   }
-  &:hover {
-    .overlay {
-      opacity: 1;
-    }
-    img {
-      transition: .4s all;
-    }
+  img {
+    transition: .4s all;
   }
+}
 }
 
 .single-img{
-  border-radius: 10px;
+border-radius: 10px;
 }
 
 .info-intro{
-  background-color: #D5CFC1;
-  border-radius: 10px;
+background-color: #D5CFC1;
+border-radius: 10px;
 }
 
 .info-intro-text{
-  margin-bottom: 100px;
+margin-bottom: 100px;
 }
 
 .footer-box{
-  background-color: #EEEDE9;
-  border-radius: 10px;
+background-color: #EEEDE9;
+border-radius: 10px;
 }
 
 .footer{
-  margin-bottom: 100px;
+margin-bottom: 100px;
 }
 
 content{
-  line-height: 1;
+line-height: 1;
 }
 
 .footer-sub{
-  font-weight: 800;
+font-weight: 800;
 }
 
 button:hover{
-  background-color: #EEEDE9;
-  cursor: pointer;
-  transition: all .2s ease-out;
+background-color: #EEEDE9;
+cursor: pointer;
+transition: all .2s ease-out;
 }
 
 #yourHtmlTag{
 
-  /*This is needed.*/
-  position: absolute;
-  top: 30%;
-  transition: all 1s ease-out;
+/*This is needed.*/
+position: absolute;
+top: 30%;
+transition: all 1s ease-out;
 }
 
 .slideanim {
-  visibility:hidden;
-  visibility:visible\9;/*For old IE browsers IE6-8 */
+visibility:hidden;
+visibility:visible\9;/*For old IE browsers IE6-8 */
 }
 .slideanim.slide {                  
-  visibility: visible;                  
-  animation: slide 1s;
+visibility: visible;                  
+animation: slide 1s;
 }
 .slideanim::after {
-  /* useful when its child elements are float:left; */
-  content: "";
-  display: table;
-  clear: both;
+/* useful when its child elements are float:left; */
+content: "";
+display: table;
+clear: both;
 }
 @keyframes slide {
-  0% {
-      opacity: 0;
-      transform: translateY(50%);
-  } 
-  100% {
-      opacity: 1;
-      transform: translateY(0);
-  } 
+0% {
+    opacity: 0;
+    transform: translateY(50%);
+} 
+100% {
+    opacity: 1;
+    transform: translateY(0);
+} 
 }
 
 .text-green{
-  color: #00ff7b;
+color: #00ff7b;
 }
 
 .text-blue{
-  color: #2929CC;
+color: #2929CC;
 }
 
 .bg-blue{
-  background-color: #2929CC;
+background-color: #2929CC;
 }
 
 .bg-dark{
-  background-color: #0d0d0d;
+background-color: #0d0d0d;
 }
 
 .text-big-btn:hover{
-  background-color: #fafafa;
-  padding: 0px 6px 0px 6px;
-  transition: all .2s ease-out;
-  border-radius: 2px;
-  color: #0d0d0d;
-  cursor:crosshair;
+background-color: #fafafa;
+padding: 0px 6px 0px 6px;
+transition: all .2s ease-out;
+border-radius: 2px;
+color: #0d0d0d;
+cursor:crosshair;
 }
 
 .text-big-btn-2:hover{
-  background-color: #00ff7b;
-  padding: 0px 6px 0px 6px;
-  transition: all .2s ease-out;
-  border-radius: 2px;
-  color: #0d0d0d;
-  cursor:crosshair;
+background-color: #00ff7b;
+padding: 0px 6px 0px 6px;
+transition: all .2s ease-out;
+border-radius: 2px;
+color: #0d0d0d;
+cursor:crosshair;
 }
 
 .dot-dark-l{
-  height: 14px;
-  width: 14px;
-  background-color: #0d0d0d;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 4px;
+height: 14px;
+width: 14px;
+background-color: #0d0d0d;
+border-radius: 50%;
+display: inline-block;
+margin-right: 4px;
 }
 
 .dot-green-l{
-  height: 14px;
-  width: 14px;
-  background-color: #00ff7b;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 4px;
+height: 14px;
+width: 14px;
+background-color: #00ff7b;
+border-radius: 50%;
+display: inline-block;
+margin-right: 4px;
 }
 
 .dot-blue-l{
-  height: 14px;
-  width: 14px;
-  background-color: #2929CC;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 4px;
+height: 14px;
+width: 14px;
+background-color: #2929CC;
+border-radius: 50%;
+display: inline-block;
+margin-right: 4px;
 }
 
 .work-desc{
-  color: #716E67;
+color: #716E67;
 }
 
 .work-header-text{
-  padding: 4px 6px 4px 0px;
+padding: 4px 6px 4px 0px;
 }
 
 /* .work-header-text:hover{
-  color: #0d0d0d;
-  background-color: #00ff7b;
-  border-radius: 2px;
-  cursor: pointer;
-  padding: 4px 6px 4px 6px;
-  transition: all .2s ease-out;
+color: #0d0d0d;
+background-color: #00ff7b;
+border-radius: 2px;
+cursor: pointer;
+padding: 4px 6px 4px 6px;
+transition: all .2s ease-out;
 } */
 
 .works-thumbnail{
-  border-radius: 10px;
+border-radius: 10px;
 }
 
 .works-thumbnail:hover{
-  border-radius: 4px;
-  transition: all .2s ease-out;
-  cursor: pointer;
-  box-shadow:
-  0px 3.3px 5.8px -11px rgba(0, 0, 0, 0.085),
-  0px 26px 46px -11px rgba(0, 0, 0, 0.17);
+border-radius: 4px;
+transition: all .2s ease-out;
+cursor: pointer;
+box-shadow:
+0px 3.3px 5.8px -11px rgba(0, 0, 0, 0.085),
+0px 26px 46px -11px rgba(0, 0, 0, 0.17);
 }
 
 .work-main{
-  padding: 0px 60px 0px 60px;
+padding: 0px 60px 0px 60px;
 }
 
 .works-main-img{
-  border-radius: 4px;
-  box-shadow:
-  0px 10px 16px -12px rgba(0, 0, 0, 0.31);
+border-radius: 4px;
+box-shadow:
+0px 10px 16px -12px rgba(0, 0, 0, 0.31);
 }
 
 .no-hover{
-  pointer-events: none;
+pointer-events: none;
 }
 
 .work-section{
-  border-top: solid 1px #0d0d0d;
+border-top: solid 1px #0d0d0d;
 }
 
 .works-card{
@@ -1087,32 +1116,42 @@ button:hover{
 }
 
 .works-card:hover{
-  background-color: #EEEDE9;
-  transition: all .1s ease-out;
-  padding-left: 8px;
-  border-radius: 4px;
-  cursor: crosshair;
+background-color: #EEEDE9;
+transition: all .1s ease-out;
+padding-left: 8px;
+border-radius: 4px;
+cursor: crosshair;
 }
 
 p{
-  line-height: 1.5;
+line-height: 1.5;
 }
 
 .main-text{
-  font-weight: 700;
+font-weight: 700;
 }
 
 h2{
-  letter-spacing: -1px;
+padding-top: 14px;
+letter-spacing: -1px;
+font-family: "Archivo", sans-serif;
+line-height: 1;
+font-weight: 100;
 }
 
 .overlay-text{
-  padding: 16px 0px 0px 0px;
+padding: 16px 0px 0px 0px;
 }
 
+.text-center{
+text-align: center;
+}
 
+b{
+font-weight: 600;
+}
 
-div,section{
-  /* border: 1px solid red; */
+div,section, h1{
+/* border: 1px solid red; */
 }
 
